@@ -1,8 +1,6 @@
-using System;
-
-namespace PZ_02
+﻿namespace PZ_02
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
