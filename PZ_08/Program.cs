@@ -33,8 +33,7 @@ class Program
         }
 
         // вывод нового массива
-        Console.WriteLine("Массив с последними элементами каждой строки:");
-        Console.WriteLine(string.Join(" ", newArray));
+        Console.WriteLine($"Массив с последними элементами каждой строки: {newArray}");;        
 
         // поиск максимального элемента в каждой строке
         int[] maxArray = new int[array.Length];
@@ -44,8 +43,7 @@ class Program
         }
 
         // вывод массива с максимальными элементами
-        Console.WriteLine("Массив с максимальными элементами каждой строки:");
-        Console.WriteLine(string.Join(" ", maxArray));
+        Console.WriteLine($"Массив с максимальными элементами каждой строки: {maxArray}");
 
         // замена первого элемента и максимального в каждой строке
         for (int i = 0; i < array.Length; i++)
